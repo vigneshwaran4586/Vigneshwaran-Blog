@@ -1,0 +1,22 @@
+
+.star{
+    color: white;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.me{
+ width: auto;
+ position: absolute;
+ right: 30px;
+}
+.github{
+    background-color: white;
+    border-radius: 70px;
+    right: 100px;
+}
+.line{
+    bottom: 100px;
+}
