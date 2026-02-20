@@ -19,4 +19,17 @@
 }
 .line{
     bottom: 100px;
+
+}
+.pri{
+    color: white;
+}
+.button{
+    width: 250px;
+    border-radius: 50px;
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: aqua;
 }
