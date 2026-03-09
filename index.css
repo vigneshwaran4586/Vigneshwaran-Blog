@@ -46,6 +46,8 @@
     z-index: -1;
 } 
 .bob{
-    overflow-y: hidden ;
+   overflow-y: auto;
+    height: 100vh;
 }
 }
+
