@@ -33,3 +33,19 @@
     cursor: pointer;
     background-color: aqua;
 }
+@media  screen and (max-width:750px) {
+    .star{
+    color: white;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0%;
+    left: 0%;
+    transform: none;
+    object-fit: cover;
+    z-index: -1;
+} 
+.bob{
+    overflow-y: hidden ;
+}
+}
