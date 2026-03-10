@@ -14,33 +14,26 @@
     object-fit: cover;
     z-index: -1;
 }
-.hacker{
-    width: 500px;
-    margin-left: 9%;
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 .micky{
     width: 250px;
+    margin-left:0;
+}
+.hacker{
+    width: 500px;
+    margin:auto;
 }
 .micky1{
     width: 250px;
-    margin-left: 15%;
+    margin-right: 0;
 }
 .back{
-    color: white;
-    background-color: white;
-    border-radius: 50px;
-    margin-left: 90%;
-}
-.back  :hover{
-    background-color: aqua;
-    cursor: pointer;
-}
-.micky2{
-     width: 250px;
-}
-.micky3{
-    width: 250px;
-    margin-left: 15%;
+    margin-left:0;
 }
 @media  screen and (max-width:1200px) {
 .star{
@@ -53,23 +46,26 @@
     object-fit: cover;
     z-index: -1;
 }
- .hacker{
-    width: 35%;
-    margin-left: 6%;
- }
- .micky{
-    width: 20%;
- }
- .micky1{
-    width: 20%;
-    margin-left: 5%;
- }
- .micky2{
-     width: 20%;
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
-.micky3{
-    width: 20%;
-    margin-left: 5%;
+.micky{
+    width: 250px;
+    margin-left:0;
+}
+.hacker{
+    width: 500px;
+    margin:auto;
+}
+.micky1{
+    width: 250px;
+    margin-right: 0;
+}
+.back{
+    margin-left:0;
 }
 .bob{
     overflow-y: auto;
