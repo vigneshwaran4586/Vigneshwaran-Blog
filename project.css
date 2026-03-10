@@ -68,7 +68,10 @@
     margin-left:0;
 }
 .bob{
+    overflow-x:hidden;
     overflow-y: auto;
     height: 100vh;
+    max-width:100%;
 }
 }
+
