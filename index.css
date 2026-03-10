@@ -1,10 +1,15 @@
 
+*{
+    font-family:'Courier New', Courier, monospace;
+}
 .star{
     color: white;
-    position: absolute;
+    position: fixed;
     width: 100%;
-    right: 0;
-    bottom: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
     z-index: -1;
 }
 .me{
@@ -19,7 +24,6 @@
 }
 .line{
     bottom: 100px;
-
 }
 .pri{
     color: white;
@@ -33,7 +37,7 @@
     cursor: pointer;
     background-color: aqua;
 }
-@media  screen and (max-width:750px) {
+@media  screen and (max-width:1100px) {
     .star{
     color: white;
     position: fixed;
@@ -48,16 +52,13 @@
 .me{
  width: 25%;
  right: 30px;
- position: fixed;
+ margin-top: 5%;
 }
 .container{
     margin-top: 20%;
-    position: fixed;
 }
 .bob{
-   overflow-y: auto;
+    overflow-y: auto;
     height: 100vh;
 }
 }
-
-
