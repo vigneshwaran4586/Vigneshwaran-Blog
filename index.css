@@ -45,9 +45,19 @@
     object-fit: cover;
     z-index: -1;
 } 
+.me{
+ width: 25%;
+ right: 30px;
+ position: fixed;
+}
+.container{
+    margin-top: 20%;
+    position: fixed;
+}
 .bob{
    overflow-y: auto;
     height: 100vh;
 }
 }
+
 
