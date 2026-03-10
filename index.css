@@ -37,6 +37,10 @@
     cursor: pointer;
     background-color: aqua;
 }
+.back :hover{
+    cursor:pointer;
+    background-color: aqua;
+}
 @media  screen and (max-width:1100px) {
     .star{
     color: white;
@@ -122,6 +126,7 @@
     overflow-y: auto;
     height: 100vh;
 }
-}
+
+
 
 
