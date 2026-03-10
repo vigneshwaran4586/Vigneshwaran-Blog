@@ -41,7 +41,7 @@
     cursor:pointer;
     background-color: aqua;
 }
-@media  screen and (max-width:1100px) {
+@media  screen and (max-width:1200px) {
     .star{
     color: white;
     position: fixed;
@@ -125,6 +125,7 @@
 .bob{
     overflow-y: auto;
     height: 100vh;
+}
 }
 
 
