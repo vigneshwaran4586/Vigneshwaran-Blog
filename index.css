@@ -62,5 +62,66 @@
     height: 100vh;
 }
 }
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.micky{
+    width: 250px;
+    margin-left:0;
+}
+.hacker{
+    width: 500px;
+    margin:auto;
+}
+.micky1{
+    width: 250px;
+    margin-right: 0;
+}
+.back{
+    margin-left:0;
+}
+@media  screen and (max-width:1200px) {
+.star{
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+}
+.bob{
+    color:white;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.micky{
+    width: 250px;
+    margin-left:0;
+}
+.hacker{
+    width: 500px;
+    margin:auto;
+}
+.micky1{
+    width: 250px;
+    margin-right: 0;
+}
+.back{
+    margin-left:0;
+}
+.bob{
+    overflow-y: auto;
+    height: 100vh;
+}
+}
 
 
