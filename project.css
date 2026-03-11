@@ -32,12 +32,9 @@
     width: 250px;
     margin-right: 0;
 }
-.back{
-    margin-left:0;
-}
 .back :hover{
-    cursor : pointer;
-    background-color:aqua;
+    cursor: pointer;
+    background-color: aqua;
 }
 @media  screen and (max-width:1200px) {
 .star{
@@ -57,25 +54,25 @@
     width: 100%;
 }
 .micky{
-    width: 250px;
+    width: 100px;
     margin-left:0;
 }
 .hacker{
-    width: 500px;
+    width: 200px;
     margin:auto;
 }
 .micky1{
-    width: 250px;
+    width: 100px;
     margin-right: 0;
 }
-.back{
-    margin-left:0;
-}
 .bob{
-    overflow-x:hidden;
+    overflow-x: hidden;
     overflow-y: auto;
     height: 100vh;
 }
+.para{
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
-
-
+}
