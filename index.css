@@ -48,6 +48,10 @@
     border-radius: 50px;
     backdrop-filter: blur(10px);
 }
+.con a{
+    text-decoration:none;
+    color:white;
+}
 @media  screen and (max-width:1200px) {
     .star{
     color: white;
@@ -63,7 +67,7 @@
 .me{
  width: 25%;
  right: 30px;
- margin-top: 5%;
+ margin-top: 7%;
 }
 .container{
     margin-top: 20%;
