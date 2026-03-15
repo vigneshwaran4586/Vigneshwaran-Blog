@@ -41,6 +41,10 @@
       color: white;
       margin-left:35px;
 }
+.nav1 :hover{
+    cursor: pointer;
+    background-color: aqua;
+}
 .project{
     display: flex;
     justify-content: space-between;
@@ -101,5 +105,8 @@
     display: flex;
     align-items: center;
     width: 100%;
+}
+.logo{
+    font-size: 20px;
 }
 }
