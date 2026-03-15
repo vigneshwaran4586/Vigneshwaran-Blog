@@ -1,7 +1,14 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .bob{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
     color: white;
 }
 .star{
@@ -13,6 +20,26 @@
     left: 0;
     object-fit: cover;
     z-index: -1;
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255,255,255, .1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+}
+
+.navbar a{
+      text-decoration: none;
+      color: white;
+      margin-left:35px;
 }
 .project{
     display: flex;
