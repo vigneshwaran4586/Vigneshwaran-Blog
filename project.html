@@ -1,85 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="project.css" >
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="hacker1.png">
-    <title>Vigneshwaran-project</title>
+    <link rel="stylesheet" href="project.css">
+    <title>Projects | Vigneshwaran</title>
 </head>
-<body class="bob">
-    <video autoplay muted loop plays-inline class="star">
+<body>
+    <video autoplay muted loop playsinline class="star">
         <source src="star.mp4" type="video/mp4">
     </video>
+    <div class="overlay"></div>
+
     <header class="header">
-         <a class="logo">Project Explorer</a>
-        <div class="navbar">
-           <a href="index.html" class="nav1">Home</a>
-        </div>
-     </header>
-     <br>
-    <center>
-     <h3><b>Privilege Esculation Project</b></h3>
-     </center>
-    <div class="project">
-        <img src="mickymouse.png" class="micky">
-        <a href="https://github.com/vigneshwaran4586/PrivilegeEsculation.git" target="_blank" class="hacker"><img class="hacker" src="privilege.png"></a>
-        <img src="mickymouse.png" class="micky1">
-    </div>
-    <div class="para">
-    <p><b>
-        🚀 Successfully completed my Linux Privilege Escalation project in a controlled lab environment.🐧 This project focused on identifying misconfigurations and vulnerable services within a Linux system.🔎 Performed detailed enumeration to gather system information, users, permissions, and running processes.  ⚙️ Analyzed SUID binaries, cron jobs, PATH variables, and weak file permissions.  🛠️ Exploited privilege escalation vectors in an ethical and authorized setup.🧠 Understood how attackers move from a low-privileged user to root access.🛡️ Applied industry-standard tools and manual techniques for deeper analysis.📊 Documented each step including discovery, exploitation, and mitigation strategies.🔐 Learned how small misconfigurations can lead to major security risks.💡 Strengthened my practical knowledge in Linux security and post-exploitation.🌐 This project enhanced my real-world cybersecurity problem-solving skills.🔥 Committed to ethical hacking and building stronger, more secure systems.
-    </b></p>
-    </div>
-    <hr>
-    <center>
-     <h3><b>Cryptography Project</b></h3>
-     <div class="project">
-      <img src="mickymouse.png" class="micky">
-        <a href="https://github.com/vigneshwaran4586/Cryptography" target="_blank" class="hacker"><img class="hacker" src="crypto.png"></a>
-        <img src="mickymouse.png" class="micky1">
-     </div>
-     <div class="para">
-    <p><b>
-        🔐 Successfully completed my Cryptography project focused on securing sensitive data using modern encryption techniques.
-🧠 Explored the fundamentals of symmetric and asymmetric encryption algorithms.
-🔑 Implemented AES and RSA to understand real-world data protection mechanisms.
-📜 Studied hashing algorithms like SHA-256 for ensuring data integrity.
-🛡️ Learned how digital signatures provide authentication and non-repudiation.
-🔎 Analyzed how encryption prevents unauthorized access to confidential information.
-⚙️ Developed practical scripts to encrypt and decrypt data securely.
-🌐 Understood the importance of cryptography in web security and secure communications.
-📊 Tested different attack scenarios to evaluate the strength of encryption methods.
-💡 Gained deeper knowledge about key management and secure key exchange.
-🚀 Strengthened my foundation in cybersecurity through hands-on implementation.
-🔥 Committed to building secure systems by applying strong cryptographic principles.
-    </b></p>
-    </div>
-    <hr>
-     <center>
-     <h3><b>Honeypot Project</b></h3>
-     </center>
-     <div class="project">
-      <img src="mickymouse.png" class="micky">
-        <a href="https://github.com/vigneshwaran4586/Honeypot.git" target="_blank" class="hacker"><img class="hacker" src="honeypot.png"></a>
-        <img src="mickymouse.png" class="micky1">
-        </div>
-        <div class="para">
-        <p>
-        <b>
-            🍯 Successfully developed a Honeypot project designed to simulate a vulnerable system and monitor attacker behavior in a controlled lab environment.
-            🛡️ The honeypot captures unauthorized access attempts and logs attacker commands for security analysis.
-            🔎 Implemented real-time monitoring to observe intrusion techniques and post-exploitation activity.
-            🐧 Built and tested the system on a Linux environment to understand practical threat detection.
-            📊 Recorded and analyzed attacker interactions to study common attack patterns.
-            ⚙️ Focused on logging, alerting mechanisms, and secure data storage for forensic investigation.
-            🧠 This project helped me understand how attackers think and operate after gaining access.
-            🔐 Strengthened my skills in defensive security and proactive threat monitoring.
-            🚀 Committed to enhancing cybersecurity by learning from real-world attack simulations.
-        </b>
-        </p>
-        </div>
-        <hr>
-    </center>
+        <a href="index.html" class="logo">PORTFOLIO</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">Project Explorer</h1>
+
+        <!-- Privilege Escalation Project -->
+        <article class="project-card">
+            <div class="project-image">
+                <a href="https://github.com/vigneshwaran4586/PrivilegeEsculation.git" target="_blank" class="project-image-link">
+                    <img src="privilege.png" alt="Privilege Escalation" class="hacker-img">
+                </a>
+            </div>
+            <div class="project-info">
+                <h3>Privilege Escalation</h3>
+                <p>
+                    🚀 Successfully completed a Linux Privilege Escalation project in a controlled lab environment. 
+                    🐧 Focused on identifying misconfigurations and vulnerable services. 
+                    🔎 Performed detailed enumeration, analyzed SUID binaries, cron jobs, and exploited privilege escalation vectors. 
+                    🛡️ Strengthened practical knowledge in Linux security and post-exploitation strategies.
+                </p>
+                <a href="https://github.com/vigneshwaran4586/PrivilegeEsculation.git" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+        </article>
+
+        <!-- Cryptography Project -->
+        <article class="project-card">
+            <div class="project-image">
+                <a href="https://github.com/vigneshwaran4586/Cryptography" target="_blank" class="project-image-link">
+                    <img src="crypto.png" alt="Cryptography" class="hacker-img">
+                </a>
+            </div>
+            <div class="project-info">
+                <h3>Cryptography</h3>
+                <p>
+                    🔐 Focused on securing sensitive data using modern encryption techniques. 
+                    🧠 Implemented AES and RSA algorithms to understand data protection mechanisms. 
+                    📜 Studied hashing (SHA-256) for data integrity and digital signatures for authentication. 
+                    🌐 Explored the critical role of cryptography in web security and secure communication protocols.
+                </p>
+                <a href="https://github.com/vigneshwaran4586/Cryptography" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+        </article>
+
+        <!-- Honeypot Project -->
+        <article class="project-card">
+            <div class="project-image">
+                <a href="https://github.com/vigneshwaran4586/Honeypot.git" target="_blank" class="project-image-link">
+                    <img src="honeypot.png" alt="Honeypot" class="hacker-img">
+                </a>
+            </div>
+            <div class="project-info">
+                <h3>Honeypot Development</h3>
+                <p>
+                    🍯 Developed a honeypot designed to simulate a vulnerable system and monitor attacker behavior. 
+                    🛡️ Captured unauthorized access attempts and logged commands for security analysis. 
+                    📊 Recorded and analyzed attacker interactions to study common patterns. 
+                    🔐 Strengthened skills in defensive security and proactive threat monitoring.
+                </p>
+                <a href="https://github.com/vigneshwaran4586/Honeypot.git" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+        </article>
+    </main>
 </body>
 </html>
